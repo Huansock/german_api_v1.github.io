@@ -99,7 +99,7 @@ function onresult(e)
     message(fin_text.trim(), interim.trim(), isfinal)
 }
 
-recognition.lang = "de"
+recognition.lang = "ko"
 recognition.continuous = false
 recognition.interimResults = true
 recognition.maxAlternatives = 10000
